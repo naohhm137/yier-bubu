@@ -1,0 +1,9 @@
+{
+  "name": "@mengjing/server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "dev": "tsx watch src/index.ts", "build": "tsc -p tsconfig.json", "start": "node dist/apps/server/src/index.js" },
+  "dependencies": { "@fastify/cors": "latest", "fastify": "latest", "socket.io": "latest" },
+  "devDependencies": { "@types/node": "latest", "tsx": "latest", "typescript": "latest" }
+}
