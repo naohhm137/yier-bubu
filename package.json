@@ -1,0 +1,1 @@
+﻿{"name":"mengjing-qilv","private":true,"workspaces":["apps/*","packages/*"],"scripts":{"dev":"vite","build":"tsc -b && vite build","server":"npm --workspace apps/server run dev","build:server":"npm --workspace apps/server run build"},"dependencies":{"@vitejs/plugin-react":"latest","vite":"latest","typescript":"latest","react":"latest","react-dom":"latest"},"devDependencies":{}}
